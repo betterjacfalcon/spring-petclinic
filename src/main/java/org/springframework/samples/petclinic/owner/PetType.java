@@ -26,5 +26,6 @@ import jakarta.persistence.Table;
 @Entity
 @Table(name = "types")
 public class PetType extends NamedEntity {
+	private Integer prueba;
 
 }
