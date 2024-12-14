@@ -28,4 +28,5 @@ import jakarta.persistence.Table;
 public class PetType extends NamedEntity {
 	private Integer cantidadMascota;
 	private String nombreMascota;
+	private String razaMascota;
 }
